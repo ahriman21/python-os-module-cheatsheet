@@ -1,0 +1,6 @@
+to go one directory back in python using module 'os' :
+=> os.chdir('../')
+to go to root of current directory (root of a disk drive) :
+=> os.chdir('/')
+
+
