@@ -34,4 +34,14 @@ def delete_dir(location,dir_name):
     path = os.path.join(location,dir_name)
     os.rmdir(path)
 
-# 
+# check if a file exists: 
+def exists(location,file_name):
+    path = os.path.join(location,file_name)
+    result = os.path.existts(path)
+    print(result)
+
+# check user os type :=> 1- import platform 2- use 'platform.uname()'
+import platform
+def check_os():
+    user_os = platform.uname()
+    print(user_os)
